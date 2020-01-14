@@ -162,7 +162,7 @@ Join_Message:
       
       Message:
         - '&8[&2+&8] &e{player} &fa intrat!'
-
+      - &e{player} &7on help" 
 # -----------------------------------------------------------------------------------------
 # Configure custom death messages.
 # -----------------------------------------------------------------------------------------
@@ -709,4 +709,7 @@ Death_Messages:
   Dryout:
     Message:
       - '&e{player} &7has dried out'
-      
+      Helps: true
+      Message:
+      - '&e{player} &7has help out'
+    
